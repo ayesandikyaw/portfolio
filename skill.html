@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      ul li a.active {
+        border-top-color: rgb(247, 247, 26);
+        border-bottom-color: rgb(247, 247, 26);
+        color: rgb(247, 247, 26);
+      }
+      h3 {
+        text-align: center;
+        margin-top: 150px;
+        font-size: 30px;
+      }
+      .skills-area {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20%;
+      }
+      .skill {
+        position: relative;
+        margin-bottom: 40px;
+      }
+      .skill-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .skill-bar {
+        width: 100%;
+        background: rgba(164, 159, 159, 0.6);
+        height: 40px;
+        z-index: -1;
+        border-radius: 100px;
+        position: absolute;
+      }
+      .skill-fill {
+        background: rgb(247, 247, 26);
+        height: 40px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30px;
+        overflow: hidden;
+      }
+      .skill-percent {
+        font-size: 20px;
+      }
+      .html {
+        animation: html 2s;
+        width: 80%;
+      }
+      .css {
+        animation: css 2s;
+        width: 80%;
+      }
+      .js {
+        animation: js 2s;
+        width: 70%;
+      }
+      .bootstrap {
+        animation: bootstrap 2s;
+        width: 70%;
+      }
+      @keyframes html {
+        from {
+          width: 0;
+        }
+        to {
+          width: 80%;
+        }
+      }
+      @keyframes css {
+        from {
+          width: 0;
+        }
+        to {
+          width: 80%;
+        }
+      }
+      @keyframes js {
+        from {
+          width: 0;
+        }
+        to {
+          width:70%;
+        }
+      }
+      @keyframes bootstrap {
+        from {
+          width: 0;
+        }
+        to {
+          width:70%;
+        }
+      }
+
+      @media only screen and (max-width: 750px) {
+        .skill-area {
+          padding: 0 5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Aye Sandi Kyaw</a></div>
+        <label for="check" class="checkbox">
+          <!-- <i class="ri-menu-line"></i> -->
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="skill.html" class="active">Skills</a></li>
+          <li><a href="project.html">My Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h3>My Skills</h3>
+    <div class="skills-area">
+      <div class="skill">
+        <div class="skill-title">HTML</div>
+        <div class="skill-bar"></div>
+        <div class="html skill-fill">
+        <span class="skill-percent">80%</span>
+      </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">CSS</div>
+        <div class="skill-bar"></div>
+        <div class="css skill-fill">
+        <span class="skill-percent">80%</span>
+      </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">JavaScript</div>
+        <div class="skill-bar"></div>
+        <div class="js skill-fill">
+        <span class="skill-percent">70%</span>
+      </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title">Bootstrap 5</div>
+        <div class="skill-bar"></div>
+        <div class="bootstrap skill-fill">
+        <span class="skill-percent">70%</span>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

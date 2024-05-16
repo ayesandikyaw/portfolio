@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+      .logo a{
+        text-decoration: none;
+      }
+      ul li a.active {
+  border-top-color: rgb(247, 247, 26);
+  border-bottom-color: rgb(247, 247, 26);
+  color: rgb(247, 247, 26);
+}
+.card-img-top{
+    /* border-radius: 50px; */
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="#">Aye Sandi Kyaw</a></div>
+          <label for="check" class="checkbox">
+           
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="skill.html">Skills</a></li>
+            <li><a href="project.html" class="active">My Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+     
+      <!-- <h3 class="text-center" style="margin-top: 100px;">My Projects</h3> -->
+      <!-- <div class="container ">
+        <div class="row mt-5">
+          <div class=" col-xs-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+              <img src="./projects/btn.PNG" alt="" class="img-fluid m-3">
+            
+              <div class="cardfooter"  style="margin-top: 70px;">
+                <div class="row justify-content-between">
+                  <div class="col-6 d-flex justify-content-center">
+                    <a href="https://github.com/ayesandikyaw/SGInternButtonAssg" class="btn" style="background-color: rgb(142, 48, 235);">View Code</a>
+                  </div>
+                  <div class="col-6" d-flex justify-content-center>
+                    <a href="https://ayesandikyaw.github.io/SGInternButtonAssg/" class="btn" style="background-color: rgb(142, 48, 235);">View Project</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+            
+            
+          </div>
+          <div class=" col-xs-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+              <img src="./projects/card1.PNG" alt="" class="img-fluid m-2" >
+              <div class="cardfooter"  >
+                <div class="row justify-content-between">
+                  <div class="col-6 d-flex justify-content-center">
+                    <a href="https://github.com/ayesandikyaw/SGcard1" class="btn" style="background-color: rgb(142, 48, 235);">View Code</a>
+                  </div>
+                  <div class="col-6  d-flex justify-content-center">
+                    <a href="https://ayesandikyaw.github.io/SGcard1/" class="btn" style="background-color: rgb(142, 48, 235);">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-md-6 col-lg-3">
+            <div class="card"style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+              <img src="./projects/card2.PNG" alt="" class="img-fluid m-3" >
+              <div class="cardfooter"  style="margin-top: 40px;">
+                <div class="row justify-content-between">
+                  <div class="col-6 d-flex justify-content-center">
+                    <a href="https://github.com/ayesandikyaw/SGcard2" class="btn" style="background-color: rgb(142, 48, 235);">View Code</a>
+                  </div>
+                  <div class="col-6 d-flex justify-content-center" >
+                    <a href="https://ayesandikyaw.github.io/SGcard2/" class="btn" style="background-color: rgb(142, 48, 235);">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row mt-5">
+          <div class=" col-xs-12 col-md-6 col-lg-3 m">
+            <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+              <img src="./projects/card3.PNG" alt="" class="img-fluid m-2">
+              <div class="cardfooter">
+                <div class="row justify-content-between">
+                  <div class="col-6 d-flex justify-content-center">
+                    <a href="https://github.com/ayesandikyaw/SGcard3" class="btn" style="background-color: rgb(142, 48, 235);">View Code</a>
+                  </div>
+                  <div class="col-6 d-flex justify-content-center" >
+                    <a href="https://github.com/ayesandikyaw/SGcard3" class="btn" style="background-color: rgb(142, 48, 235);">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+              <img src="./projects/card4.PNG" alt="" class="img-fluid m-3" >
+              <div class="cardfooter"  style="margin-top: 70px;">
+                <div class="row justify-content-between">
+                  <div class="col-6 d-flex justify-content-center">
+                    <a href="https://github.com/ayesandikyaw/SGcard4" class="btn" style="background-color: rgb(142, 48, 235);">View Code</a>
+                  </div>
+                  <div class="col-6 d-flex justify-content-center" >
+                    <a href="https://ayesandikyaw.github.io/SGcard4/" class="btn" style="background-color: rgb(142, 48, 235);">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+              <img src="./projects/card5.PNG" alt="" class="img-fluid m-5" >
+              <div class="cardfooter"  style="margin-top: 20px;">
+                <div class="row justify-content-between">
+                  <div class="col-6 d-flex justify-content-center">
+                    <a href="https://github.com/ayesandikyaw/SGcard5" class="btn" style="background-color: rgb(142, 48, 235);">View Code</a>
+                  </div>
+                  <div class="col-6 d-flex justify-content-center" >
+                    <a href="https://ayesandikyaw.github.io/SGcard5/" class="btn" style="background-color: rgb(142, 48, 235);">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+        
+      <div class="container py-5">
+        <h3 class="text-center" style="margin-top: 100px;">My Projects</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+            <div class="col">
+                <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+                    <img src="./projects/btn.PNG" class="card-img-top" alt="...">
+                   
+                    <div class=" d-flex justify-content-around" style="margin-top:70px">
+                      
+                      <a href="https://github.com/ayesandikyaw/SGInternButtonAssg" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Code</a>
+                      <a href="https://ayesandikyaw.github.io/SGInternButtonAssg/" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+                    <img src="./projects/card1.PNG" class="card-img-top" alt="...">
+                    <div class=" d-flex justify-content-around" style="margin-top: 5px;">
+                      <a href="https://github.com/ayesandikyaw/SGcard1" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Code</a>
+                      <a href="https://ayesandikyaw.github.io/SGcard1/" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+                    <img src="./projects/card2.PNG" class="card-img-top" alt="...">
+                    
+                    <div class="d-flex justify-content-around" style="margin-top: 50px;">
+                      <a href="https://github.com/ayesandikyaw/SGcard2" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Code</a>
+                      <a href="https://ayesandikyaw.github.io/SGcard2/" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+                    <img src="./projects/card3.PNG" class="card-img-top" alt="...">
+                    
+                    <div class=" d-flex justify-content-around">
+                      <a href="https://github.com/ayesandikyaw/SGcard3" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Code</a>
+                      <a href="https://ayesandikyaw.github.io/SGcard3/" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+                    <img src="./projects/card4.PNG" class="card-img-top" alt="...">
+                    
+                    <div class="d-flex justify-content-around" style="margin-top: 50px;">
+                      <a href="https://github.com/ayesandikyaw/SGcard4" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Code</a>
+                      <a href="https://ayesandikyaw.github.io/SGcard4/" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 25rem;height: 20rem;background-color: rgb(162, 114, 209);">
+                    <img src="./projects/card5.PNG" class="card-img-top" alt="...">
+                    
+                    <div class="d-flex justify-content-around" style="margin-top: 40px;">
+                     
+                      <a href="https://github.com/ayesandikyaw/SGcard5" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Code</a>
+                      <a href="https://ayesandikyaw.github.io/SGcard5/" class="btn btn-primary" style="background-color: rgb(142, 48, 235);">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+      
+</body>
+</html>

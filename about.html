@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      ul li a.active {
+  border-top-color: rgb(247, 247, 26);
+  border-bottom-color: rgb(247, 247, 26);
+  color: rgb(247, 247, 26);
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Aye Sandi Kyaw</a></div>
+        <label for="check" class="checkbox">
+          <!-- <i class="ri-menu-line"></i> -->
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html" class="active">About me</a></li>
+          <li><a href="skill.html">Skills</a></li>
+          <li><a href="project.html">My Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">
+            <span>About me<br /></span>
+          </h1>
+          <p class="description">
+            Hi! My name is Aye Sandi Kyaw. I'm currently learning web
+            development with HTML, CSS, JAVASCRIPT and PHP.This is a front-end
+            web project developed using HTML and CSS.
+          </p>
+          <div>
+            <i
+              class="fa-solid fa-user"
+              style="font-size: 20px; margin-bottom: 20px;color: rgb(142, 48, 235);"
+            ></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aye Sandi Kyaw
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-phone"
+              style="font-size: 20px; margin-bottom: 20px;color: rgb(142, 48, 235);"
+            ></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+959976509344
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-envelope"
+              style="font-size: 20px; margin-bottom: 40px;color: rgb(142, 48, 235);"
+            ></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ayesandikyaw655@gmail.com
+          </div>
+          <div class="action__btns">
+            <button class="hire__me">Download CV</button>
+          </div>
+          <!-- <div class="action__btns">
+              <button class="hire__me">Hire Me</button>
+              <button class="portfolio">Portfolio</button>
+            </div> -->
+        </div>
+        <div class="image">
+          <img src="./profile.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- <h1 class="title">About me</h1>
+    <p class="description">Hi! My name is Aye Sandi Kyaw. I'm currently learning web development with HTML, CSS, JAVASCRIPT and PHP.This is a front-end web project developed using HTML and CSS.</p> -->
+  </body>
+</html>
